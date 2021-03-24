@@ -74,7 +74,7 @@
   
   }
 
-  .nav .nav__contents .hrader_list .headerlist{
+  .navb .contents .header_list .headerlist{
     position: relative;
     color: #e5e5e5;
     transition: color .4s;
@@ -93,7 +93,7 @@
   }
 
   
-  .nav {
+  .navb {
     position: fixed;
     top: 0;
     padding: 20px;
@@ -103,11 +103,11 @@
     
   }
   
-  .nav__black {
+  .black {
     background-color: #111;
   }
   
-  .nav__contents {
+  .contents {
     display: flex;
     justify-content: space-between;
   }
@@ -134,18 +134,18 @@
     text-align: left;
   }
   
-  .rowposters {
+  .rowpics {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
   }
   
-  .rowposters::-webkit-scrollbar {
+  .rowpics::-webkit-scrollbar {
     display: none;
   }
   
-  .rowposter {
+  .rowpic {
     object-fit: contain;
     margin-right: 10px;
     max-height: 100px;
@@ -153,18 +153,18 @@
     transition: transform 500ms;
   }
   
-  .rowposter:hover {
+  .rowpic:hover {
     transform: scale(1.08);
     opacity: 1;
   }
   
-  .posterLarge {
+  .zoom {
     max-height: 250px;
     
     
   }
   
-  .posterLarge:hover {
+  .zoom:hover {
     transform: scale(1.09);
     opacity: 1;
   }
